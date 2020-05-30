@@ -1,0 +1,39 @@
+.poster {
+  cursor: pointer;
+  margin: 0;
+  position: relative;
+}
+
+.poster-description {
+  display: none;
+  z-index: 0;
+
+  position: absolute;
+  top: 16px;
+  left: 16px;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 140%;
+  /* or 22px */
+
+  /* Gray 6 */
+
+  color: #F2F2F2;
+}
+
+.poster-picture {
+  vertical-align: top;
+}
+
+.poster:hover > .poster-description {
+  display: block;
+  z-index: 20;
+}
+
+.poster:hover > .curtain {
+  display: block;
+  z-index: 10;
+}

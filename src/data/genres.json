@@ -1,0 +1,32 @@
+{
+  "genres_list": [
+    {
+      "id": 1,
+      "name": "Комедии",
+      "firstColor": "#F2C94C",
+      "secondColor": "#F29A4A",
+      "emoji": "😁"
+    },
+    { 
+      "id": 2,
+      "name": "Драмы",
+      "firstColor": "#F2994A",
+      "secondColor": "#EB5757",
+      "emoji": "😭"
+    },
+    {
+      "id": 3,
+      "name": "Фантастика",
+      "firstColor": "#56CCF2",
+      "secondColor": "#2F80ED",
+      "emoji": "👽"
+    },
+    {
+      "id": 4,
+      "name": "Ужасы",
+      "firstColor": "#828282",
+      "secondColor": "#333333",
+      "emoji": "👻"
+    }
+  ]
+}

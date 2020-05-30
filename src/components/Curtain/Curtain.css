@@ -1,0 +1,14 @@
+.curtain {
+  position: absolute;
+  display: none;
+  z-index: 0;
+  background: #333333;
+  opacity: 0.6;
+  width: 100%;
+  height: 100%;
+}
+
+.curtain_shutted {
+  display: block;
+  z-index: 10;
+}

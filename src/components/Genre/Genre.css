@@ -1,0 +1,35 @@
+.genre {
+  position: relative;
+  width: 280px;
+  height: 208px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  cursor: pointer;
+  opacity: 0.8;
+  box-shadow: inset 0px 0px 16px rgba(0, 0, 0, 0.15);
+  border-radius: 6px;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height */
+
+  color: #FFFFFF;
+}
+
+.genre:hover {
+  opacity: 1.0;
+}
+
+.genre-emoji {
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  line-height: 57px;
+}

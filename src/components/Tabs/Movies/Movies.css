@@ -1,0 +1,9 @@
+.movies {
+  width: 82%;
+  margin: 0 auto;
+}
+
+.movies-list {
+  display: flex;
+  justify-content: space-between;
+}

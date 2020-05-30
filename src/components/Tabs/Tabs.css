@@ -1,0 +1,41 @@
+.tabs {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.tabs-button {
+  height: 33px;
+
+  cursor: pointer;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 1000;
+  font-size: 28px;
+  line-height: 33px;
+  text-align: right;
+
+  /* Gray 1 */
+  color: #333333;
+
+  background-color: #FFFFFF; /* Green */
+  border: none;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.tabs-header {
+  margin: 0 auto;
+  width: 311px;
+  height: 5%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.tabs-button_active {
+  color: #E5261E;
+  border-bottom: 2px solid #E5261E;
+}
