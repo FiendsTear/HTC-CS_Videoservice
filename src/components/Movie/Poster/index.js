@@ -10,7 +10,7 @@ function Poster(props) {
 
   return (
     <figure className={cnPoster()}>
-      <Curtain></Curtain>
+      <Curtain covering='poster'></Curtain>
       <img className={cnPosterPicture()} src={"/assets/posters/" + props.posterName} alt="new_batman"/>
       <figcaption className={cnPosterDescription()}>{props.posterDescription}</figcaption>
     </figure>

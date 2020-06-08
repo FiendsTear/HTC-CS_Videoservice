@@ -37,7 +37,7 @@ function App() {
 
   return (
     <div className="App">
-      <Curtain shutted={isCurtainShutted} handleCurtain={handleCurtain} handleLoginForm={handleLoginForm}/>
+      <Curtain shutted={isCurtainShutted} handleCurtain={handleCurtain} handleLoginForm={handleLoginForm} covering='app'/>
       <Header handleCurtain={handleCurtain} handleLoginForm={handleLoginForm} authenticate={Authenticate} changeUserName={changeUserName} userName={userName} authenticated={authenticated}/>
       <Login handleCurtain={handleCurtain} handleLoginForm={handleLoginForm} authenticate={Authenticate} changeUserName={changeUserName} authenticated={authenticated} active={isLoginFormActive}/>
       <Tabs />
