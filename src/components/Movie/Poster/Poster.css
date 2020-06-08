@@ -1,7 +1,9 @@
 .poster {
   cursor: pointer;
   margin: 0;
-  position: relative;
+	position: relative;
+	overflow: hidden;
+	border-radius: 8px;
 }
 
 .poster-description {
