@@ -14,3 +14,8 @@
 .channel-info {
   width: 65%;
 }
+
+/* let's suppose that current program is always first on list*/
+.channel-info li:first-child {
+	color: #E5261E;
+}
