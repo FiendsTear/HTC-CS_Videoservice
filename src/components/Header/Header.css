@@ -57,5 +57,7 @@
 }
 
 .header-login {
-  display: flex;
+	display: flex;
+	width: 230px;
+	justify-content: flex-end;
 }
