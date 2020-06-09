@@ -4,6 +4,7 @@ import Field from '../Field';
 import { cn } from '@bem-react/classname';
 import './Header.css';
 import {deleteCookie} from '../../helpers/CookieManagement';
+import PropTypes from 'prop-types';
 
 function Header(props) {
 
@@ -35,15 +36,15 @@ function Header(props) {
 	let loginButton;
 	if (props.authenticated) {
 		loginButton = 
-      <div className={cnHeaderLogin()}>
-      	<Field fieldValue={props.userName} handleChange={setUserName} style={{'width': '114px', 'text-align': 'right'}}></Field>
-      	<Button clickHandle={Logout} title="Выйти"></Button>
-      </div>;
+			<div className={cnHeaderLogin()}>
+				<Field fieldValue={props.userName} handleChange={setUserName} style={{'width': '114px', 'text-align': 'right'}}></Field>
+				<Button clickHandle={Logout} title="Выйти"></Button>
+			</div>;
 	} else {
 		loginButton = 
-      <div className={cnHeaderLogin()}>
-      	<Button type="login" clickHandle={showLoginForm} title="Войти"></Button>
-      </div>;
+			<div className={cnHeaderLogin()}>
+				<Button type="login" clickHandle={showLoginForm} title="Войти"></Button>
+			</div>;
 	} 
 
 	return (
@@ -63,4 +64,12 @@ function Header(props) {
 	);
 }
 
+Header.propTypes = {
+	handleCurtain: PropTypes.func,
+	handleLoginForm: PropTypes.func,
+	authenticate: PropTypes.func,
+	authenticated: PropTypes.bool,
+	changeUserName: PropTypes.func,
+	userName: PropTypes.string
+};
 export default Header;
