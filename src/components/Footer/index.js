@@ -15,7 +15,7 @@ function Footer() {
 				<div>
           426057, Россия, Удмуртская Республика, г. Ижевск, ул. Карла Маркса, 246 (ДК «Металлург») <br />
           +7 (3412) 93-88-61, 43-29-29 <br />
-					<a href="http://htc-cs.ru">htc-cs.ru</a> <br />
+					<a href="http://htc-cs.ru" target="blank">htc-cs.ru</a> <br />
 				</div>
 			</div>
 		</footer>
