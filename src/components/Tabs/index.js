@@ -22,8 +22,8 @@ function Tabs() {
 	return (  
 		<main className={cnTabs()}>
 			<header className={cnTabsHeader()}>
-				<div className={currentTab === 'movies' ? cnTabsButton({ active: true}) : cnTabsButton()} onClick={() => setCurrentTab('movies')}>Фильмы</div>
-				<div className={currentTab === 'channels' ? cnTabsButton({ active: true}) : cnTabsButton()} onClick={() => setCurrentTab('channels')}>Телеканалы</div>
+				<h4 className={currentTab === 'movies' ? cnTabsButton({ active: true}) : cnTabsButton()} onClick={() => setCurrentTab('movies')}>Фильмы</h4>
+				<h4 className={currentTab === 'channels' ? cnTabsButton({ active: true}) : cnTabsButton()} onClick={() => setCurrentTab('channels')}>Телеканалы</h4>
 			</header>
 			{currentTabComponent}
 		</main>

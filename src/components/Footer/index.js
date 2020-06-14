@@ -12,11 +12,11 @@ function Footer() {
 		<footer className={cnFooter()}>
 			<div className={cnFooterContent()}>
 				<img className={cnFooterLogo()} src="/assets/common_logos/htc-cs-logo.png" alt="htc-cs-logo"></img>
-				<div>
+				<p>
           426057, Россия, Удмуртская Республика, г. Ижевск, ул. Карла Маркса, 246 (ДК «Металлург») <br />
           +7 (3412) 93-88-61, 43-29-29 <br />
 					<a href="http://htc-cs.ru" target="blank">htc-cs.ru</a> <br />
-				</div>
+				</p>
 			</div>
 		</footer>
 	);

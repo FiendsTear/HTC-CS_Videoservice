@@ -10,7 +10,7 @@ function Genre(props) {
 	return (
 		<div className={cnGenre()} style={{'background': `linear-gradient(136.27deg, ${props.firstColor} 8.44%, ${props.secondColor} 91.36%)`}}>
 			<span className={cnGenreEmoji()} role="img" aria-label="fire">{props.emoji}</span>
-			<span>{props.name}</span>
+			<h6>{props.name}</h6>
 		</div>
 	);
 }

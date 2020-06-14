@@ -10,7 +10,7 @@ function MoviesList() {
 
 	return (    
 		<div className={cnMovies()}>
-			<div><span role="img" aria-label="fire">🔥</span><span>Новинки</span></div>
+			<div><span role="img" aria-label="fire">🔥</span><h5>Новинки</h5></div>
 			<ul className={cnMoviesList()}>
 				{movies_list_data.movies_list.map((movie) => 
 					<li key={movie.id}><Movie name={movie.name} description={movie.description} posterName={movie.posterName}></Movie></li> 

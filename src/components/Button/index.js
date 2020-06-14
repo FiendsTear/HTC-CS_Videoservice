@@ -12,7 +12,7 @@ function Button(props) {
 	};
 
 	return (
-		<div className={props.type==='login' ? cnButton({'type': 'login'}) : cnButton()} onClick={clickHandle}>{props.title}</div>
+		<button className={props.type==='login' ? cnButton({'type': 'login'}) : cnButton()} onClick={clickHandle}>{props.title}</button>
 	);
 }
 
