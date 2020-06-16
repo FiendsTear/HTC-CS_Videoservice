@@ -43,19 +43,12 @@ html, body{
 }
 
 ul {
-  list-style-type: none;
-  margin-block-start: 0px;
-  margin-block-end: 0px;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  padding-inline-start: 0px;
+	list-style-type: none;
 }
 
-figure, h6, h5, h4 {
-  margin-block-start: 0;
-  margin-block-end: 0;
-  margin-inline-start: 0;
-  margin-inline-end: 0;
+figure, h6, h5, h4, ul {
+	margin: 0px;
+	padding: 0px;
 }
 
 a {
