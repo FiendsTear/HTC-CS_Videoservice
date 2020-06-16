@@ -1,28 +1,19 @@
 .poster {
   cursor: pointer;
   margin: 0;
-	position: relative;
-	overflow: hidden;
-	border-radius: 8px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
 }
 
 .poster-description {
   display: none;
   z-index: 0;
-
   position: absolute;
   top: 16px;
   left: 16px;
-
-  font-family: Rubik;
-  font-style: normal;
-  font-weight: normal;
   line-height: 140%;
-  /* or 22px */
-
-  /* Gray 6 */
-
-  color: #F2F2F2;
+  color: #f2f2f2;
 }
 
 .poster-picture {

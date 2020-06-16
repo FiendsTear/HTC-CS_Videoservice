@@ -1,20 +1,19 @@
 .App {
-  background: #FFFFFF;
+  background: #fff;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-
-	font-family: Rubik, sans-serif;
+  font-family: Rubik, sans-serif;
   font-style: normal;
-	font-weight: normal;
-	font-size: 1em;
+  font-weight: normal;
+  font-size: 1em;
 }
 
-@media (min-height: 910px) { 
+@media (min-height: 910px) {
   .App {
     height: 100%;
   }
-} 
+}
 
 .App > main {
   height: 80%;
@@ -32,7 +31,8 @@
   height: 10%;
 }
 
-html, body{
+html,
+body {
   margin: 0;
   padding: 0;
   height: 100%;
@@ -43,33 +43,39 @@ html, body{
 }
 
 ul {
-	list-style-type: none;
+  list-style-type: none;
 }
 
-figure, h6, h5, h4, ul {
-	margin: 0px;
-	padding: 0px;
+figure,
+h6,
+h5,
+h4,
+ul {
+  margin: 0;
+  padding: 0;
 }
 
 a {
   text-decoration: none;
-  color: #1F4766;
+  color: #1f4766;
   font-weight: 500;
 }
 
-h6, h5, h4 {
-	font-weight: 500;
-	display: inline-block;
+h6,
+h5,
+h4 {
+  font-weight: 500;
+  display: inline-block;
 }
 
 h6 {
-	font-size: 1.25em;
+  font-size: 1.25em;
 }
 
 h5 {
-	font-size: 1.50em;
+  font-size: 1.5em;
 }
 
 h4 {
-	font-size: 1.75em;
+  font-size: 1.75em;
 }

@@ -24,8 +24,6 @@
 }
 
 .header-label {
-  font-family: Rubik;
-  font-style: normal;
   font-weight: 500;
   font-size: 1.25em;
   height: 40px;
@@ -35,28 +33,25 @@
   /* identical to box height */
 
   /* Gray 1 */
-  color: #333333;
+  color: #333;
 }
-
 
 .header-searchField {
   border: none;
-  border-bottom: 1px solid #333333;
+  border-bottom: 1px solid #333;
   margin-right: 15px;
 }
 
 .header-searchButton {
   display: inline-block;
-
   cursor: pointer;
-  
-  color: #E5261E;
+  color: #e5261e;
   font-weight: 500;
   line-height: 19px;
 }
 
 .header-login {
-	display: flex;
-	width: 230px;
-	justify-content: flex-end;
+  display: flex;
+  width: 230px;
+  justify-content: flex-end;
 }

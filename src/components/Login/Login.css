@@ -1,14 +1,12 @@
 .login {
   position: absolute;
-  top: calc(50% - 394px/2);
-  left : calc(50% - 304px/2);
+  top: calc(50% - 394px / 2);
+  left: calc(50% - 304px / 2);
   z-index: 20;
-
   display: none;
   width: 304px;
   height: 394px;
-
-  background: #FFFFFF;
+  background: #fff;
   border-radius: 8px;
 }
 

@@ -2,8 +2,7 @@
   position: absolute;
   display: none;
   z-index: 0;
-  background: #333333;
-
+  background: #333;
   width: 100%;
   height: 100%;
 }
@@ -14,9 +13,9 @@
 }
 
 .curtain_covering_poster {
-	opacity: 0.8;
+  opacity: 0.8;
 }
 
 .curtain_covering_app {
-	opacity: 0.6;
+  opacity: 0.6;
 }
