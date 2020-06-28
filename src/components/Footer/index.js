@@ -11,7 +11,7 @@ function Footer() {
 	return (
 		<footer className={cnFooter()}>
 			<div className={cnFooterContent()}>
-				<img className={cnFooterLogo()} src="/assets/common_logos/htc-cs-logo.png" alt="htc-cs-logo"></img>
+				<img className={cnFooterLogo()} src="/assets/common_logos/htc-cs-logo.svg" alt="htc-cs-logo"></img>
 				<p>
           426057, Россия, Удмуртская Республика, г. Ижевск, ул. Карла Маркса, 246 (ДК «Металлург») <br />
           +7 (3412) 93-88-61, 43-29-29 <br />
