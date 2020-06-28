@@ -12,7 +12,6 @@ function Header(props) {
 	const cnHeaderLogo = cn(cnHeader(), 'logo');
 	const cnHeaderLabel = cn(cnHeader(), 'label');
 	const cnHeaderSearch = cn(cnHeader(), 'search');
-	const cnHeaderSign = cn(cnHeader(), 'sign');
 	const cnHeaderContent = cn(cnHeader(), 'content');
 	const cnHeaderSearchButton = cn(cnHeader(), 'searchButton');
 	const cnHeaderLogin = cn(cnHeader(), 'login');
@@ -51,7 +50,10 @@ function Header(props) {
 		<header className={cnHeader()}>
 			<div className={cnHeaderContent()}>
 				<div className={cnHeaderLogo()}>
-					<img  className ={cnHeaderSign()} src="/assets/common_logos/sign.png" alt="sign"></img>
+					<svg width="37" height="33" viewBox="0 0 37 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<ellipse cx="18.075" cy="16.2" rx="18.075" ry="16.2" fill="#E5261E"/>
+						<polygon points="8, 0 39, 16.2 8, 34" fill="#FFF"/>
+					</svg>
 					<span className={cnHeaderLabel()}>Видеосервис</span>
 				</div>
 				<div className={cnHeaderSearch()}>

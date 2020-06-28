@@ -3,7 +3,7 @@
     {
       "id": 1,
       "name": "Первый канал",
-      "logoName": "first_channel.png",
+      "logoName": "first_channel.svg",
       "programs": [
         {"id": 1, "time": "13:00", "name": "Новости (с субтитрами)"},
         {"id": 2, "time": "14:00", "name": "Давай поженимся"},
@@ -13,7 +13,7 @@
     { 
       "id": 2,
       "name": "2x2",
-      "logoName": "2x2.png",
+      "logoName": "2x2.svg",
       "programs": [
         {"id": 1, "time": "13:00", "name": "МУЛЬТ ТВ. Сезон 4, 7 серия"},
         {"id": 2, "time": "14:00", "name": "ПОДОЗРИТЕЛЬНАЯ СОВА. Сезон 7, 7 серия"},
@@ -23,7 +23,7 @@
     {
       "id": 3,
       "name": "РБК",
-      "logoName": "rbc.png",
+      "logoName": "rbc.svg",
       "programs": [
         {"id": 1, "time": "13:00", "name": "ДЕНЬ. Горючая смесь: как бороться с суррогатом на АЗС"},
         {"id": 2, "time": "14:00", "name": "ДЕНЬ. Главные темы"},
@@ -33,7 +33,7 @@
     {
       "id": 4,
       "name": "AMEDIA PREMIUM",
-      "logoName": "amedia_premium.png",
+      "logoName": "amedia_premium.svg",
       "programs": [
         {"id": 1, "time": "13:00", "name": "Клиент всегда мёртв"},
         {"id": 2, "time": "14:00", "name": "Голодные игры: Сойка-пересмешница. Часть I"},
@@ -42,12 +42,12 @@
     },
     {
       "id": 5,
-      "name": "ТВ3",
-      "logoName": "tv3.png",
+      "name": "Пустой канал",
+      "logoName": "empty_channel.svg",
       "programs": [
-        {"id": 1, "time": "13:00", "name": "Клиент всегда мёртв"},
-        {"id": 2, "time": "14:00", "name": "Голодные игры: Сойка-пересмешница. Часть I"},
-        {"id": 3, "time": "15:00", "name": "Секс в большом городе"}
+        {"id": 1, "time": "13:00", "name": "Программа 1"},
+        {"id": 2, "time": "14:00", "name": "Программа 2"},
+        {"id": 3, "time": "15:00", "name": "Программа 3"}
       ]
     }
   ]
