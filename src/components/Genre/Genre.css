@@ -22,9 +22,9 @@
   opacity: 1;
 }
 
-.genre-emoji {
-  height: 40px;
-  width: 40px;
+.genre-icon {
+  height: 48px;
+  width: 48px;
   text-align: center;
   line-height: 57px;
 }

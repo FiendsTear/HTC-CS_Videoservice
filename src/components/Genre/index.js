@@ -5,11 +5,11 @@ import PropTypes from 'prop-types';
 
 function Genre(props) {
 	const cnGenre = cn('genre');
-	const cnGenreEmoji = cn(cnGenre(), 'emoji');
+	const cnGenreIcon = cn(cnGenre(), 'icon');
 
 	return (
 		<div className={cnGenre()} style={{'background': `linear-gradient(136.27deg, ${props.firstColor} 8.44%, ${props.secondColor} 91.36%)`}}>
-			<span className={cnGenreEmoji()} role="img" aria-label="fire">{props.emoji}</span>
+			<img className={cnGenreIcon()} src={props.icon} role="img" alt={props.name}/>
 			<h6>{props.name}</h6>
 		</div>
 	);
@@ -18,7 +18,7 @@ function Genre(props) {
 Genre.propTypes = {
 	firstColor: PropTypes.string,
 	secondColor: PropTypes.string,
-	emoji: PropTypes.emoji,
+	icon: PropTypes.string,
 	name: PropTypes.string
 };
 

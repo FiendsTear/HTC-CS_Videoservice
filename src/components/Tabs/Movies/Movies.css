@@ -1,9 +1,14 @@
 .movies {
   width: 82%;
-  margin: 0 auto;
+	margin: 0 auto;
 }
 
 .movies-list {
   display: flex;
   justify-content: space-between;
+}
+
+.movies-icon {
+	width: 25px;
+	height: 25px
 }

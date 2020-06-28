@@ -13,7 +13,7 @@ function Genres() {
 			<h5>Жанры</h5>
 			<ul className={cnGenresList()}>
 				{genres_list_data.genres_list.map((genre) => 
-					<li key={genre.id}><Genre name={genre.name} firstColor={genre.firstColor} secondColor={genre.secondColor} emoji={genre.emoji}></Genre></li> 
+					<li key={genre.id}><Genre name={genre.name} firstColor={genre.firstColor} secondColor={genre.secondColor} icon={genre.icon}></Genre></li> 
 				)}
 			</ul>
 		</div>
