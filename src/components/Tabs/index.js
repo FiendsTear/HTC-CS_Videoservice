@@ -10,9 +10,9 @@ function Tabs() {
 	const [currentTab, setCurrentTab] = useState('movies');
 	let currentTabComponent;
 	if (currentTab === 'movies') {
-		currentTabComponent = <section style={{'height': '95%'}}><Movies /><Genres /></section>;
+		currentTabComponent = <section><Movies /><Genres /></section>;
 	} else {
-		currentTabComponent = <section style={{'height': '95%'}}><Channels /></section>;
+		currentTabComponent = <section><Channels /></section>;
 	}
 
 	const cnTabs = cn('tabs');

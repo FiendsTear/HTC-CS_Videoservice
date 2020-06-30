@@ -6,11 +6,12 @@ import PropTypes from 'prop-types';
 
 function Movie(props) {
 	const cnMovie = cn('movie');
+	const cnMovieName = cn(cnMovie(), 'name');
 
 	return (
 		<article className={cnMovie()}>
 			<Poster posterName={props.posterName} posterDescription={props.description}></Poster>
-			<h6>{props.name}</h6>
+			<h6 className={cnMovieName()}>{props.name}</h6>
 		</article>
 	);
 }

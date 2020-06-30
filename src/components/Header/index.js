@@ -54,7 +54,7 @@ function Header(props) {
 						<ellipse cx="18.075" cy="16.2" rx="18.075" ry="16.2" fill="#E5261E"/>
 						<polygon points="8, 0 39, 16.2 8, 34" fill="#FFF"/>
 					</svg>
-					<span className={cnHeaderLabel()}>Видеосервис</span>
+					<h6 className={cnHeaderLabel()}>Видеосервис</h6>
 				</div>
 				<div className={cnHeaderSearch()}>
 					<Field placeholder="Поиск..." underlined={true}/>

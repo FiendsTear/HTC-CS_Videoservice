@@ -1,7 +1,7 @@
 .footer {
   width: 100%;
   background: #f2f2f2;
-  min-height: 70px;
+  height: 120px;
   display: flex;
   align-items: center;
 }
@@ -12,6 +12,15 @@
   height: 100%;
   display: flex;
   justify-content: flex-start;
-  align-items: center;
-  line-height: 19px;
+	align-items: center;
+	line-height: 19px;
+}
+
+.footer-logo {
+	margin-right: 40px;
+}
+
+.footer-link {
+	display: inline-block;
+	margin-top: 10px;
 }

@@ -1,10 +1,9 @@
 .header {
   width: 100%;
-  min-height: 40px;
+  height: 40px;
 }
 
 .header-content {
-  height: 100%;
   width: 82%;
   display: flex;
   justify-content: space-between;
@@ -24,15 +23,6 @@
 }
 
 .header-label {
-  font-weight: 500;
-  font-size: 1.25em;
-  height: 40px;
-  line-height: 40px;
-  vertical-align: middle;
-
-  /* identical to box height */
-
-  /* Gray 1 */
   color: #333;
 }
 

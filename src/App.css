@@ -1,45 +1,30 @@
 .App {
+	position: absolute;
+	width: 100%;
   background: #fff;
   display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
+	flex-direction: column;
+	align-items: center;
   font-family: Rubik, sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 1em;
 }
 
-@media (min-height: 910px) {
-  .App {
-    height: 100%;
-  }
+.App > .header {
+	margin-top: 32px;
+	margin-bottom: 44px;
 }
 
-.App > main {
-  height: 80%;
-  margin: 0 auto;
-}
-
-.App > header {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  height: 10%;
-}
-
-.App > footer {
-  margin-top: 10px;
-  height: 10%;
+.App > .footer {
+	margin-top: 72px;
 }
 
 html,
 body {
   margin: 0;
   padding: 0;
-  height: 100%;
-}
-
-#root {
-  height: 100%;
+	height: 100%;
+	font-size: 16px;
 }
 
 ul {
@@ -69,13 +54,13 @@ h4 {
 }
 
 h6 {
-  font-size: 1.25em;
+  font-size: 1.25rem;
 }
 
 h5 {
-  font-size: 1.5em;
+  font-size: 1.5rem;
 }
 
 h4 {
-  font-size: 1.75em;
+  font-size: 1.875rem;
 }

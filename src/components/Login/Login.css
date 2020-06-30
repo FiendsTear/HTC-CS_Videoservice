@@ -1,5 +1,5 @@
 .login {
-  position: absolute;
+  position: fixed;
   top: calc(50% - 394px / 2);
   left: calc(50% - 304px / 2);
   z-index: 20;
