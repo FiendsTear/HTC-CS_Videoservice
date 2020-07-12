@@ -58,7 +58,7 @@ function Header(props) {
 					<h6 className={cnHeaderLabel()}>Видеосервис</h6>
 				</div>
 				<div className={cnHeaderSearch()}>
-					<Field placeholder="Поиск..." underlined={true}/>
+					<Field placeholder="Поиск..."/>
 					<div className={cnHeaderSearchButton()}>Найти</div>
 				</div>
 				{loginButton}

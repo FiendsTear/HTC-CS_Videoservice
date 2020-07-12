@@ -1,0 +1,7 @@
+.checkbox {
+	width: 1rem;
+	height: 1rem;
+	margin: 0;
+	border: 1px solid #333;
+	border-radius: 4px;
+}

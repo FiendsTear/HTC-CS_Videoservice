@@ -38,4 +38,21 @@
 
 .login-fields .field {
 	border-bottom: 1px solid #333;
+	padding-bottom: 6px;
+	font: inherit;
+}
+
+.login-fields .field::placeholder {
+	color: #828282;
+}
+
+.login-checkbox {
+	display: flex;
+}
+
+.login-checkbox label {
+	display: inline-block;
+	margin-left: 8px;
+	line-height: 19px;
+	color: #333;
 }

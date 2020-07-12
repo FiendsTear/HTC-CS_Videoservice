@@ -18,7 +18,6 @@ function Field(props) {
 }
 
 Field.propTypes = {
-	underlined: PropTypes.bool,
 	placeholder: PropTypes.string,
 	handleChange: PropTypes.func,
 	fieldValue: PropTypes.string
