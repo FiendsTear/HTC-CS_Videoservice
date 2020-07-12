@@ -9,6 +9,7 @@ import PropTypes from 'prop-types';
 function Header(props) {
 
 	const cnHeader = cn('header');
+	const cnHeaderSign = cn(cnHeader(), 'sign');
 	const cnHeaderLogo = cn(cnHeader(), 'logo');
 	const cnHeaderLabel = cn(cnHeader(), 'label');
 	const cnHeaderSearch = cn(cnHeader(), 'search');
@@ -50,7 +51,7 @@ function Header(props) {
 		<header className={cnHeader()}>
 			<div className={cnHeaderContent()}>
 				<div className={cnHeaderLogo()}>
-					<svg width="37" height="33" viewBox="0 0 37 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<svg className={cnHeaderSign()} width="37" height="33" viewBox="0 0 37 33" fill="none" xmlns="http://www.w3.org/2000/svg">
 						<ellipse cx="18.075" cy="16.2" rx="18.075" ry="16.2" fill="#E5261E"/>
 						<polygon points="8, 0 39, 16.2 8, 34" fill="#FFF"/>
 					</svg>

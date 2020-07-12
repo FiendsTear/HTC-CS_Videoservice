@@ -1,12 +1,11 @@
 .movies-list {
 	display: flex;
 	margin-top: 16px;
-	overflow-x: scroll;
 }
 
 .movies-icon {
 	width: 25px;
-	height: 25px
+	height: 25px;
 }
 
 .movies-item {

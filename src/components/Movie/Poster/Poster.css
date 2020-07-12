@@ -1,31 +1,31 @@
 .poster {
-  cursor: pointer;
-  margin: 0;
-  position: relative;
-  overflow: hidden;
-  border-radius: 8px;
+	cursor: pointer;
+	margin: 0;
+	position: relative;
+	overflow: hidden;
+	border-radius: 8px;
 }
 
 .poster-description {
-  display: none;
-  z-index: 0;
-  position: absolute;
-  top: 16px;
-  left: 16px;
-  line-height: 140%;
-  color: #f2f2f2;
+	display: none;
+	z-index: 0;
+	position: absolute;
+	top: 16px;
+	left: 16px;
+	line-height: 140%;
+	color: #f2f2f2;
 }
 
 .poster-picture {
-  vertical-align: top;
+	vertical-align: top;
 }
 
 .poster:hover > .poster-description {
-  display: block;
-  z-index: 20;
+	display: block;
+	z-index: 20;
 }
 
 .poster:hover > .curtain {
-  display: block;
-  z-index: 10;
+	display: block;
+	z-index: 10;
 }

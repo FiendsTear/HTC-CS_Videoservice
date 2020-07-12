@@ -1,17 +1,17 @@
 .footer {
-  width: 100%;
-  background: #f2f2f2;
-  height: 120px;
-  display: flex;
-  align-items: center;
+	width: 100%;
+	background: #f2f2f2;
+	height: 120px;
+	display: flex;
+	align-items: center;
 }
 
 .footer-content {
-  margin: 0 auto;
-  width: 82%;
-  height: 100%;
-  display: flex;
-  justify-content: flex-start;
+	margin: 0 auto;
+	width: 82%;
+	height: 100%;
+	display: flex;
+	justify-content: flex-start;
 	align-items: center;
 	line-height: 19px;
 }

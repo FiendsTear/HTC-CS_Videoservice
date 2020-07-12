@@ -1,34 +1,38 @@
 .tabs {
-  width: 82%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
+	width: 82%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
 }
 
 .tabs-button {
-  height: 33px;
-  cursor: pointer;
-  line-height: 33px;
-  text-align: right;
+	height: 33px;
+	cursor: pointer;
+	line-height: 33px;
+	text-align: right;
 
-  /* Gray 1 */
-  color: #333;
-  background-color: #fff; /* Green */
-  border: none;
-  text-decoration: none;
+	/* Gray 1 */
+	color: #333;
+	background-color: #fff; /* Green */
+	border: none;
+	text-decoration: none;
 }
 
 .tabs-header {
-  margin: 0 auto;
-  width: 311px;
-  display: flex;
+	margin: 0 auto;
+	width: 311px;
+	display: flex;
 	justify-content: space-evenly;
 	margin-bottom: 32px;
 }
 
+.tabs-button:first-child {
+	margin-right: 24px;
+}
+
 .tabs-button_active {
-  color: #e5261e;
-  border-bottom: 2px solid #e5261e;
+	color: #e5261e;
+	border-bottom: 2px solid #e5261e;
 }
 
 .tabs .genres {

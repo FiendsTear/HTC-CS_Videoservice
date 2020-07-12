@@ -1,21 +1,21 @@
 .channel {
-  display: flex;
-  align-items: center;
-  height: 100%;
-  cursor: pointer;
+	display: flex;
+	align-items: center;
+	height: 100%;
+	cursor: pointer;
 }
 
 .channel-logo {
-  width: 35%;
-  text-align: center;
-  vertical-align: middle;
+	width: 35%;
+	text-align: center;
+	vertical-align: middle;
 }
 
 .channel-info {
-  width: 65%;
+	width: 65%;
 }
 
 /* let's suppose that current program is always first on list */
 .channel-info li:first-child {
-  color: #e5261e;
+	color: #e5261e;
 }

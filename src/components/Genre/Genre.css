@@ -1,30 +1,30 @@
 .genre {
-  position: relative;
-  width: 280px;
-  height: 208px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  opacity: 0.8;
-  box-shadow: inset 0 0 16px rgba(0, 0, 0, 0.15);
-  border-radius: 6px;
-  font-size: 20px;
-  line-height: 24px;
+	position: relative;
+	width: 280px;
+	height: 208px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	opacity: 0.8;
+	box-shadow: inset 0 0 16px rgba(0, 0, 0, 0.15);
+	border-radius: 6px;
+	font-size: 20px;
+	line-height: 24px;
 
-  /* identical to box height */
+	/* identical to box height */
 
-  color: #fff;
+	color: #fff;
 }
 
 .genre:hover {
-  opacity: 1;
+	opacity: 1;
 }
 
 .genre-icon {
-  height: 48px;
-  width: 48px;
-  text-align: center;
-  line-height: 57px;
+	height: 48px;
+	width: 48px;
+	text-align: center;
+	line-height: 57px;
 }

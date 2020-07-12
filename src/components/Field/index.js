@@ -9,11 +9,11 @@ function Field(props) {
 	return (
 		<input 
 			type="text" 
-			className={props.underlined ? cnField({'underlined': true}) : cnField()} 
+			className={cnField()} 
 			placeholder={props.placeholder} 
 			onChange={props.handleChange} 
 			value={props.fieldValue ? props.fieldValue : undefined} 
-			style={props.style ? props.style : undefined}/>
+		/>
 	);
 }
 
@@ -21,8 +21,7 @@ Field.propTypes = {
 	underlined: PropTypes.bool,
 	placeholder: PropTypes.string,
 	handleChange: PropTypes.func,
-	fieldValue: PropTypes.string,
-	style: PropTypes.string
+	fieldValue: PropTypes.string
 };
 
 export default Field;

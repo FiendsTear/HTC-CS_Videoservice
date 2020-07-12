@@ -1,7 +1,6 @@
 .genres-list {
 	display: flex;
 	margin-top: 16px;
-	overflow-x: scroll;
 }
 
 .genres-item {
