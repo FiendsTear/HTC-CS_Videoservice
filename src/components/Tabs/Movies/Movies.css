@@ -1,6 +1,17 @@
 .movies-list {
 	display: flex;
 	margin-top: 16px;
+	margin-right: -20px;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+@media (max-width: 720px) {
+	.movies-list {
+		overflow-x: scroll;
+		flex-wrap: nowrap;
+		justify-content: initial;
+	}
 }
 
 .movies-icon {
@@ -10,4 +21,5 @@
 
 .movies-item {
 	margin-right: 20px;
+	flex: 1 0 auto;
 }

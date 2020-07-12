@@ -37,4 +37,9 @@
 
 .tabs .genres {
 	margin-top: 32px;
+	margin-bottom: 72px;
+}
+
+.tabs .channels {
+	margin-bottom: 72px;
 }

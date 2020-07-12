@@ -1,8 +1,21 @@
 .genres-list {
 	display: flex;
 	margin-top: 16px;
+	margin-right: -20px;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
 }
 
 .genres-item {
 	margin-right: 20px;
+	margin-bottom: 20px;
+	flex: 1 0 auto;
+}
+
+@media (max-width: 720px) {
+	.genres-list {
+		overflow-x: scroll;
+		flex-wrap: nowrap;
+		justify-content: initial;
+	}
 }

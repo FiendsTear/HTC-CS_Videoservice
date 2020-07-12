@@ -1,13 +1,24 @@
 .App {
 	position: absolute;
 	width: 100%;
-  background: #fff;
-  display: flex;
+	background: #fff;
+	display: flex;
 	flex-direction: column;
 	align-items: center;
-  font-family: Rubik, sans-serif;
-  font-style: normal;
-  font-weight: normal;
+	font-family: Rubik, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+}
+
+@media (min-height: 1140px) {
+	.App {
+		height: 100%;
+	}
+
+	.footer {
+		position: absolute;
+		bottom: 0;
+	}
 }
 
 .App > .header {
@@ -15,20 +26,24 @@
 	margin-bottom: 44px;
 }
 
-.App > .footer {
-	margin-top: 72px;
+@media (max-width: 950px) {
+	.App > .header {
+		margin-bottom: 64px;
+	}
+}
+
+@media (max-width: 460px) {
+	.App > .header {
+		margin-bottom: 84px;
+	}
 }
 
 html,
 body {
-  margin: 0;
-  padding: 0;
+	margin: 0;
+	padding: 0;
 	height: 100%;
 	font-size: 16px;
-}
-
-ul {
-  list-style-type: none;
 }
 
 figure,
@@ -36,31 +51,54 @@ h6,
 h5,
 h4,
 ul {
-  margin: 0;
-  padding: 0;
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	list-style-type: none;
+	scrollbar-width: thin;
+}
+
+ul::-webkit-scrollbar {
+	background: #f2f2f2;
+	border-radius: 2px;
+}
+
+ul::-webkit-scrollbar-thumb {
+	background: #bdbdbd;
+	border-radius: 2px;
+}
+
+ul::-webkit-scrollbar:vertical {
+	width: 8px;
+}
+
+ul::-webkit-scrollbar:horizontal {
+	height: 8px;
 }
 
 a {
-  text-decoration: none;
-  color: #1f4766;
-  font-weight: 500;
+	text-decoration: none;
+	color: #1f4766;
+	font-weight: 500;
 }
 
 h6,
 h5,
 h4 {
-  font-weight: 500;
-  display: inline-block;
+	font-weight: 500;
+	display: inline-block;
 }
 
 h6 {
-  font-size: 1.25rem;
+	font-size: 1.25rem;
 }
 
 h5 {
-  font-size: 1.5rem;
+	font-size: 1.5rem;
 }
 
 h4 {
-  font-size: 1.875rem;
+	font-size: 1.875rem;
 }

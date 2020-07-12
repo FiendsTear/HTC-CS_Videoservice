@@ -6,9 +6,21 @@
 .header-content {
 	width: 82%;
 	display: flex;
-	justify-content: space-between;
+	flex: 1 0 auto;
 	align-items: center;
+	justify-content: space-between;
 	margin: 0 auto;
+}
+
+@media (max-width: 950px) {
+	.header-content {
+		flex-wrap: wrap;
+	}
+
+	.header-search {
+		order: 3;
+		margin: 10px auto 0 auto;
+	}
 }
 
 .header-logo {

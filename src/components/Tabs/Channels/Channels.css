@@ -8,7 +8,6 @@
 	flex-direction: column;
 	overflow: hidden;
 	overflow-y: scroll;
-	scrollbar-width: thin;
 }
 
 .channels-item {
@@ -22,17 +21,4 @@
 
 .channels-list .channels-item:last-of-type {
 	margin-bottom: 0;
-}
-
-.channels-list::-webkit-scrollbar {
-	width: 8px;
-	height: 50%;
-	background: #f2f2f2;
-	border-radius: 2px;
-}
-
-.channels-list::-webkit-scrollbar-thumb {
-	height: 50%;
-	background: #bdbdbd;
-	border-radius: 2px;
 }
