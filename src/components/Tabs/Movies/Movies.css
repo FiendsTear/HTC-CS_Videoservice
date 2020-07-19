@@ -1,6 +1,6 @@
 .movies-list {
 	display: flex;
-	margin-top: 16px;
+	margin-top: 44px;
 	margin-right: -20px;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
@@ -20,6 +20,12 @@
 }
 
 .movies-item {
+	margin-top: 20px;
 	margin-right: 20px;
-	flex: 1 0 auto;
+	position: relative;
+}
+
+.movies-new {
+	position: absolute;
+	top: -50px;
 }

@@ -1,16 +1,16 @@
 {
   "movies_list": [
-    {
+		{ 
       "id": 1,
-      "name": "Новый Бэтмен",
-			"posterName": "new_batman.jpg",
-      "description": "Описание Нового Бэтмена"
-    },
-    { 
-      "id": 2,
       "name": "Мульт в кино. Выпуск №103. Некогда грустить!",
       "posterName": "cartoon_in_movie_103.jpg",
       "description": "Описание Мульт в кино. Выпуск №103. Некогда грустить!"
+    },
+    {
+      "id": 2,
+      "name": "Новый Бэтмен",
+			"posterName": "new_batman.jpg",
+      "description": "Описание Нового Бэтмена"
     },
     {
       "id": 3,

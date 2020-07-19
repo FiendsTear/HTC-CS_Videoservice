@@ -12,7 +12,8 @@ function Field(props) {
 			className={cnField()} 
 			placeholder={props.placeholder} 
 			onChange={props.handleChange} 
-			value={props.fieldValue ? props.fieldValue : undefined} 
+			value={props.fieldValue} 
+			maxLength={props.maxLength}
 		/>
 	);
 }
@@ -20,7 +21,8 @@ function Field(props) {
 Field.propTypes = {
 	placeholder: PropTypes.string,
 	handleChange: PropTypes.func,
-	fieldValue: PropTypes.string
+	fieldValue: PropTypes.string,
+	maxLength: PropTypes.number
 };
 
 export default Field;

@@ -1,6 +1,6 @@
 .genres-list {
 	display: flex;
-	margin-top: 16px;
+	margin-top: 76px;
 	margin-right: -20px;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
@@ -9,7 +9,12 @@
 .genres-item {
 	margin-right: 20px;
 	margin-bottom: 20px;
-	flex: 1 0 auto;
+	position: relative;
+}
+
+.genres-header {
+	position: absolute;
+	top: -50px;
 }
 
 @media (max-width: 720px) {

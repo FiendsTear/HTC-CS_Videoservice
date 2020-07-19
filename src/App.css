@@ -26,18 +26,6 @@
 	margin-bottom: 44px;
 }
 
-@media (max-width: 950px) {
-	.App > .header {
-		margin-bottom: 64px;
-	}
-}
-
-@media (max-width: 460px) {
-	.App > .header {
-		margin-bottom: 84px;
-	}
-}
-
 html,
 body {
 	margin: 0;

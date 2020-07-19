@@ -28,17 +28,15 @@ function Header(props) {
 	};
 
 	const setUserName = (event) => {
-		if (event.target.value) {
-			props.changeUserName(event.target.value);
-		}
+		props.changeUserName(event.target.value);
 	};
 
 	let loginButton;
 	if (props.authenticated) {
 		loginButton = 
 			<div className={cnHeaderLogin()}>
-				<Field fieldValue={props.userName} handleChange={setUserName} style={{'width': '114px', 'text-align': 'right'}}></Field>
-				<Button clickHandle={Logout} title="Выйти"></Button>
+				<Field fieldValue={props.userName} handleChange={setUserName} maxLength={20}></Field>
+				<Button type="logout" clickHandle={Logout} title="Выйти"></Button>
 			</div>;
 	} else {
 		loginButton = 
